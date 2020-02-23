@@ -1,0 +1,5 @@
+************************<br>
+*********请先登录********<br>
+<form action="login" method="get">
+请输入账号: <input name="name" value="">
+请输入密码: <input name="pass" value="">
