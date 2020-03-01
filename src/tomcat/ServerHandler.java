@@ -80,6 +80,7 @@ public class ServerHandler extends Thread {
             PrintWriter out = new PrintWriter(socket.getOutputStream());
             out.println(response.getResponseContent());
             out.flush();
+            String s = "12\"\"3";
 
         } catch (IOException e) {
             e.printStackTrace();

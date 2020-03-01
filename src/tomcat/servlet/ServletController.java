@@ -20,7 +20,7 @@ public class ServletController {
     static {
         Properties properties = new Properties();
         try {
-            properties.load(new FileReader("src//web.properties"));
+            properties.load(new FileReader("src/web.properties"));
             Enumeration<?> requestNames = properties.propertyNames();
             while (requestNames.hasMoreElements()) {
                 String resources = (String) requestNames.nextElement();

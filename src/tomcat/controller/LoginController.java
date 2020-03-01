@@ -12,5 +12,20 @@ public class LoginController extends HttpServlet {
         System.out.println(name + "----" + pass);
         System.out.println("服务器：【登录成功】");
         response.sendRedirect("login.view");
+        // response.get
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // request.getRequestDispatcher("login.view").forward(request, response);
     }
 }
